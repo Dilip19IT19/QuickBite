@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Recipe-App",
-    "slug": "Recipe-App",
+    "name": "QuickBite",
+    "slug": "quickbite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2d3250"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dilipchoudhary.RecipeApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b47e93f2-403f-450f-bccb-389c9d365650"
+      }
+    },
+    "owner": "dilipchoudhary"
   }
 }
